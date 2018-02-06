@@ -1,0 +1,179 @@
+body{
+	background-color: black;
+	
+}
+
+h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
+	font-family: 'Bree Serif', serif;
+}
+
+#social-container{
+	background-color: #1c3643;
+}
+
+#logo-container .callout{
+	background-color: #3dc2d3;
+	color: white;
+	margin-bottom: 0;
+
+}
+/** #81F7F3**/
+#menu-container{
+	background-color: #1c3643;
+
+}
+
+#menu-container li a{
+	color: white;
+	font-family: 'Bree Serif', serif;
+	text-transform: uppercase;
+	
+}
+
+#submenu-container{
+	border: 0;
+}
+
+#menu-container li a:hover,
+#submenu-container li a:hover{
+	color: #CEF6F5;	
+}
+
+#submenu-container li a{
+	background-color: #1c3643;	
+	color: white;
+
+}
+
+#tickets-action .callout{
+	background-color: #bdf7fc;
+	color: white;
+	margin-bottom: 0;
+}
+
+#tickets-action .callout button{
+	color: #04B431;
+	border: 1px solid #04B431;
+}
+
+#lineup-container{
+	padding: 1em 0;
+
+}
+
+#lineup-container,
+#lineup-container .tabs-panel,
+#lineup-container .tabs,
+#lineup-container .tabs .tabs-title,
+#lineup-container .tabs .tabs-title.is-active a{
+	background-image: url(https://68.media.tumblr.com/e893bc5bb59db0cc5e52223a80602832/tumblr_ojuabnbCGa1upblvio1_500.gif);
+	color: white;
+	border: 0;
+	text-transform: uppercase;
+	font-family: 'Bree Serif', serif;
+}
+
+.tabs-content{
+	border: 0;
+}
+
+#lineup-container .tabs .tabs-title a{
+	font-size: 18px;
+	color: #1c3643;
+
+}
+
+#lineup-container .tabs .tabs-title a:hover{
+	color: #1c3643;
+	background-color: grey;
+}
+
+
+/*
+Foundation no permite centrarlo, agregar estilo adicional
+*/
+.tabs-title{
+display: inline-block;
+float: none;
+}
+
+#lineup-container .orbit-container{
+	margin-bottom: 1em;
+}
+
+#lineup-container .column:nth-child(odd) figcaption{
+	text-align: right;
+}
+
+
+
+.pricing-table{
+	border: 1px solid #161742;
+	font-family: 'Ravi Prakash', cursive;
+}
+
+.pricing-table li,
+.pricing-table li.description{
+	font-size: 20px;
+}
+
+.pricing-table li.price,
+.pricing-table li.title{
+	font-size: 30px;
+}
+
+.pricing-table a.button{
+	font-family: 'Bree Serif', serif;
+}
+
+#info-container{
+	background-color: #1c3643;
+	color: White;
+	padding: 1em 0;
+
+}
+
+#info-container .info-map iframe{
+	width: 100%;
+
+}
+
+#suscribete-container{
+	background-color: #3dc2d3;
+	color: white;
+	padding: 1em 0;
+}
+
+#suscribete-container h4 small{
+	color: white;
+}
+
+#suscribete-container .error-container{
+	font-family: 'Bree Serif', serif;
+}
+
+.is-invalid-input:not(:focus) {
+	background-color: rgb(255,228,228);
+	border-color: rgb(255,228,228);
+}
+
+.data-sticky{
+	width: 100%;
+	z-index: 100;
+}
+
+#offCanvas,
+#offCanvas li a{
+	background-color: black;
+	color: white;
+	font-family: 'Bree Serif', serif;
+}
+
+
+#offCanvas .is-drilldown-submenu-parent > a::after{
+	border-color: transparent transparent transparent white;
+}
+
+#offCanvas .js-drilldown-back > a::before{
+	border-color: transparent white transparent transparent;
+}
