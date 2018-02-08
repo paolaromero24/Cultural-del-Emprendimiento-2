@@ -66,6 +66,7 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 #lineup-container .tabs,
 #lineup-container .tabs .tabs-title,
 #lineup-container .tabs .tabs-title.is-active a{
+	background-image: url(https://68.media.tumblr.com/e893bc5bb59db0cc5e52223a80602832/tumblr_ojuabnbCGa1upblvio1_500.gif);
 	
 	color: white;
 	border: 0;
