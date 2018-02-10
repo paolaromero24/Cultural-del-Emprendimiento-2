@@ -8,23 +8,24 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 }
 
 #social-container{
-	background-color: #1c3643;
+	background-color: black;
 }
 
 #logo-container .callout{
-	background-color: #3dc2d3;
-	color: white;
+	background-color: #606060 ;
+	/*Color de la letra*/
+	color: black;
 	margin-bottom: 0;
 
 }
 /** #81F7F3**/
 #menu-container{
-	background-color: #1c3643;
+	background-color: black;
 
 }
 
 #menu-container li a{
-	color: white;
+	color: #E8E8E8 ;
 	font-family: 'Bree Serif', serif;
 	text-transform: uppercase;
 	
@@ -36,12 +37,12 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 
 #menu-container li a:hover,
 #submenu-container li a:hover{
-	color: #CEF6F5;	
+	color: #989898 ;	
 }
 
 #submenu-container li a{
-	background-color: #1c3643;	
-	color: white;
+	background-color: black;	
+	color: #E8E8E8 ;
 
 }
 
@@ -52,7 +53,7 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 }
 
 #tickets-action .callout button{
-	color: #04B431;
+	color: white;
 	border: 1px solid #04B431;
 }
 
@@ -66,8 +67,10 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 #lineup-container .tabs,
 #lineup-container .tabs .tabs-title,
 #lineup-container .tabs .tabs-title.is-active a{
-	background-image: url(https://68.media.tumblr.com/e893bc5bb59db0cc5e52223a80602832/tumblr_ojuabnbCGa1upblvio1_500.gif);
-	color: white;
+	
+
+	background: #E0E0E0 ;
+	color: black;
 	border: 0;
 	text-transform: uppercase;
 	font-family: 'Bree Serif', serif;
@@ -79,12 +82,12 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 
 #lineup-container .tabs .tabs-title a{
 	font-size: 18px;
-	color: #E0E0E0 ;
+	color: black ;
 
 }
 
 #lineup-container .tabs .tabs-title a:hover{
-	color: #1c3643;
+	color: black;
 	background-color: grey;
 }
 
@@ -127,8 +130,8 @@ float: none;
 }
 
 #info-container{
-	background-color: #1c3643;
-	color: White;
+	background-color: #E0E0E0;
+	color: black;
 	padding: 1em 0;
 
 }
@@ -139,7 +142,7 @@ float: none;
 }
 
 #suscribete-container{
-	background-color: #3dc2d3;
+	background-color: #606060;
 	color: white;
 	padding: 1em 0;
 }
@@ -164,7 +167,7 @@ float: none;
 
 #offCanvas,
 #offCanvas li a{
-	background-color: black;
+	background-color: #42F2F8;
 	color: white;
 	font-family: 'Bree Serif', serif;
 }
