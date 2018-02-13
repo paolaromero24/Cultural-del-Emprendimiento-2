@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 
 }
 
-#tickets-action .callout{
+/**#tickets-action .callout{
 	background-color: #bdf7fc;
 	color: white;
 	margin-bottom: 0;
@@ -55,9 +55,14 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 #tickets-action .callout button{
 	color: white;
 	border: 1px solid #04B431;
-}
+}  **/
 
 #lineup-container{
+	padding: 1em 0;
+
+}
+
+#tickets-container{
 	padding: 1em 0;
 
 }
@@ -76,7 +81,47 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 	font-family: 'Bree Serif', serif;
 }
 
+
+#tickets-container,
+#tickets-container .tabs-panel,
+#tickets-container .tabs,
+#tickets-container .tabs .tabs-title,
+#tickets-container .tabs .tabs-title.is-active a{
+	
+
+	background: #B8B8B8 ;
+	color: black;
+	border: 0;
+	text-transform: uppercase;
+	font-family: 'Bree Serif', serif;
+}
+
+#tickets-container,
+#tickets-container .tabs-panel1,
+#tickets-container .tabs1,
+#tickets-container .tabs .tabs-title1,
+#tickets-container .tabs .tabs-title1.is-active a{
+	
+
+	background: #505050  ;
+	color: 	#C8C8C8 ;
+	border: 0;
+	text-transform: uppercase;
+	font-family: 'Bree Serif', serif;
+}
+
+
+
+
+
+
+
+
 .tabs-content{
+	border: 0;
+}
+
+.tabs-content1{
 	border: 0;
 }
 
@@ -86,7 +131,30 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 
 }
 
+#tickets-container .tabs .tabs-title a{
+	font-size: 18px;
+	color: black ;
+
+}
+
+#tickets-container .tabs .tabs-title1 a{
+	font-size: 18px;
+	color: black ;
+
+}
+
+
 #lineup-container .tabs .tabs-title a:hover{
+	color: black;
+	background-color: grey;
+}
+
+#tickets-container .tabs .tabs-title a:hover{
+	color: black;
+	background-color: grey;
+}
+
+#tickets-container .tabs .tabs-title1 a:hover{
 	color: black;
 	background-color: grey;
 }
@@ -100,11 +168,24 @@ display: inline-block;
 float: none;
 }
 
+.tabs-title1{
+display: inline-block;
+float: none;
+}
+
 #lineup-container .orbit-container{
 	margin-bottom: 1em;
 }
 
 #lineup-container .column:nth-child(odd) figcaption{
+	text-align: right;
+}
+
+#tickets-container .orbit-container{
+	margin-bottom: 1em;
+}
+
+#tickets-container .column:nth-child(odd) figcaption{
 	text-align: right;
 }
 

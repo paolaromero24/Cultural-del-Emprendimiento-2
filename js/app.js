@@ -4,7 +4,21 @@ $('[data-toggle-dia]').click(function () {
 
 $('#lineup-tabs').foundation('selectTab', $(this).data('toggleDia'))
 
+
+
 });
+
+$(document).foundation()
+
+$('[data-toggle-dia1]').click(function () {
+
+$('#tickets-tabs').foundation('selectTab', $(this).data('toggleDia1'))
+
+
+
+});
+
+
 
 const $offCanvas = $('#offCanvas')
 const $sticky = $('#sticky')

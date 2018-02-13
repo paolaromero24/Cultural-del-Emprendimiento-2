@@ -2893,6 +2893,8 @@ table.hover tr:nth-of-type(even):hover {
   overflow: hidden;
   list-style: none; }
 
+ 
+
 .orbit-slide {
   width: 100%;
   max-height: 100%; }
