@@ -261,3 +261,42 @@ float: none;
 #offCanvas .js-drilldown-back > a::before{
 	border-color: transparent white transparent transparent;
 }
+
+#modulo3 {
+	padding: 1em 0;
+}
+
+#modulo3,
+#modulo3 .tabs-panel,
+#modulo3 .tabs,
+#modulo3 .tabs .tabs-title,
+#modulo3 .tabs .tabs-title.is-active a{
+	
+
+	background: #E0E0E0 ;
+	color: black;
+	border: 0;
+	text-transform: uppercase;
+	font-family: 'Bree Serif', serif;
+}
+
+#modulo3 .tabs .tabs-title a{
+	font-size: 18px;
+	color: black ;
+
+}
+
+
+#modulo3  .tabs .tabs-title a:hover{
+	color: black;
+	background-color: grey;
+}
+
+#modulo3 .orbit-container{
+	margin-bottom: 1em;
+}
+
+#modulo3 .column:nth-child(odd) figcaption{
+	text-align: right;
+}
+
