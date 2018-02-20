@@ -14,7 +14,14 @@ $('[data-toggle-dia1]').click(function () {
 
 $('#tickets-tabs').foundation('selectTab', $(this).data('toggleDia1'))
 
+});
 
+
+$(document).foundation()
+
+$('[data-toggle-dia2]').click(function () {
+
+$('#modulo3-tabs').foundation('selectTab', $(this).data('toggleDia2'))
 
 });
 
