@@ -46,26 +46,13 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 
 }
 
-/**#tickets-action .callout{
-	background-color: #bdf7fc;
-	color: white;
-	margin-bottom: 0;
-}
-
-#tickets-action .callout button{
-	color: white;
-	border: 1px solid #04B431;
-}  **/
+/**MODULO1**/
 
 #lineup-container{
 	padding: 1em 0;
 
 }
 
-#tickets-container{
-	padding: 1em 0;
-
-}
 
 #lineup-container,
 #lineup-container .tabs-panel,
@@ -81,6 +68,32 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 	font-family: 'Bree Serif', serif;
 }
 
+#lineup-container .tabs .tabs-title a{
+	font-size: 18px;
+	color: black ;
+
+}
+
+#lineup-container .tabs .tabs-title a:hover{
+	color: black;
+	background-color: grey;
+}
+
+#lineup-container .orbit-container{
+	margin-bottom: 1em;
+}
+
+#lineup-container .column:nth-child(odd) figcaption{
+	text-align: right;
+}
+
+
+/**MODULO2**/
+
+#tickets-container{
+	padding: 1em 0;
+
+}
 
 #tickets-container,
 #tickets-container .tabs-panel,
@@ -96,40 +109,6 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 	font-family: 'Bree Serif', serif;
 }
 
-#tickets-container,
-#tickets-container .tabs-panel1,
-#tickets-container .tabs1,
-#tickets-container .tabs .tabs-title1,
-#tickets-container .tabs .tabs-title1.is-active a{
-	
-
-	background: #505050  ;
-	color: 	#C8C8C8 ;
-	border: 0;
-	text-transform: uppercase;
-	font-family: 'Bree Serif', serif;
-}
-
-
-
-
-
-
-
-
-.tabs-content{
-	border: 0;
-}
-
-.tabs-content1{
-	border: 0;
-}
-
-#lineup-container .tabs .tabs-title a{
-	font-size: 18px;
-	color: black ;
-
-}
 
 #tickets-container .tabs .tabs-title a{
 	font-size: 18px;
@@ -137,29 +116,64 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 
 }
 
-#tickets-container .tabs .tabs-title1 a{
-	font-size: 18px;
-	color: black ;
-
-}
-
-
-#lineup-container .tabs .tabs-title a:hover{
-	color: black;
-	background-color: grey;
-}
-
 #tickets-container .tabs .tabs-title a:hover{
 	color: black;
 	background-color: grey;
 }
 
-#tickets-container .tabs .tabs-title1 a:hover{
+
+#tickets-container .orbit-container{
+	margin-bottom: 1em;
+}
+
+#tickets-container .column:nth-child(odd) figcaption{
+	text-align: right;
+}
+
+/**MODULO3**/
+
+#modulo3 {
+	padding: 1em 0;
+}
+
+#modulo3,
+#modulo3 .tabs-panel,
+#modulo3 .tabs,
+#modulo3 .tabs .tabs-title,
+#modulo3 .tabs .tabs-title.is-active a{
+	
+
+	background: #E0E0E0 ;
+	color: black;
+	border: 0;
+	text-transform: uppercase;
+	font-family: 'Bree Serif', serif;
+}
+
+#modulo3 .tabs .tabs-title a{
+	font-size: 18px;
+	color: black ;
+
+}
+
+#modulo3  .tabs .tabs-title a:hover{
 	color: black;
 	background-color: grey;
 }
 
+#modulo3 .orbit-container{
+	margin-bottom: 1em;
+}
 
+#modulo3 .column:nth-child(odd) figcaption{
+	text-align: right;
+}
+
+/**FIN MODULO 3**/
+
+.tabs-content{
+	border: 0;
+}
 /*
 Foundation no permite centrarlo, agregar estilo adicional
 */
@@ -172,24 +186,6 @@ float: none;
 display: inline-block;
 float: none;
 }
-
-#lineup-container .orbit-container{
-	margin-bottom: 1em;
-}
-
-#lineup-container .column:nth-child(odd) figcaption{
-	text-align: right;
-}
-
-#tickets-container .orbit-container{
-	margin-bottom: 1em;
-}
-
-#tickets-container .column:nth-child(odd) figcaption{
-	text-align: right;
-}
-
-
 
 .pricing-table{
 	border: 1px solid #161742;
@@ -247,6 +243,7 @@ float: none;
 	z-index: 100;
 }
 
+
 #offCanvas,
 #offCanvas li a{
 	background-color: #42F2F8;
@@ -262,42 +259,3 @@ float: none;
 #offCanvas .js-drilldown-back > a::before{
 	border-color: transparent white transparent transparent;
 }
-
-#modulo3 {
-	padding: 1em 0;
-}
-
-#modulo3,
-#modulo3 .tabs-panel,
-#modulo3 .tabs,
-#modulo3 .tabs .tabs-title,
-#modulo3 .tabs .tabs-title.is-active a{
-	
-
-	background: #E0E0E0 ;
-	color: black;
-	border: 0;
-	text-transform: uppercase;
-	font-family: 'Bree Serif', serif;
-}
-
-#modulo3 .tabs .tabs-title a{
-	font-size: 18px;
-	color: black ;
-
-}
-
-
-#modulo3  .tabs .tabs-title a:hover{
-	color: black;
-	background-color: grey;
-}
-
-#modulo3 .orbit-container{
-	margin-bottom: 1em;
-}
-
-#modulo3 .column:nth-child(odd) figcaption{
-	text-align: right;
-}
-
