@@ -23,15 +23,22 @@
         <div id="offCanvas" class="off-canvas position-left" data-off-canvas>
           <nav data-magellan>
            <ul class="vertical menu" data-drilldown>
-              <li><a href="#tickets-container">Módulo 2</a>
-                
-              </li>
               <li>
                 <a href="#lineup-container">Modulo 1</a>
                 <ul class="vertical menu">
                   <li><a data-toggle-dia="panelViernes" href="#lineup-container">Arbol de problemas</a></li>
                   <li><a data-toggle-dia="panelSabado" href="#lineup-container">Mapa de Actores</a></li>
                   <li><a data-toggle-dia="panelDomingo" href="#lineup-container">Analisis Pestel</a></li>
+                </ul> 
+              </li>
+
+               <li>
+                <a href="#tickets-container">Modulo 2</a>
+                <ul class="vertical menu">
+                  <li><a data-toggle-dia1="panelViernes1" href="#tickets-container">Plan de Investigación</a></li>
+                  <li><a data-toggle-dia1="panelSabado1" href="#tickets-container">Guía de Entrevista</a></li>
+                  <li><a data-toggle-dia1="panelDomingo1" href="#tickets-container">Método de Investigación 2</a></li>
+                   <li><a data-toggle-dia1="panelDomingoD" href="#tickets-container">Evidencia</a></li>
                 </ul> 
               </li>
 
@@ -115,6 +122,7 @@
                         <li><a data-toggle-dia1="panelViernes1" href="#tickets-container">Plan de Investigación</a></li>
                         <li><a data-toggle-dia1="panelSabado1" href="#tickets-container">Guia de entrevista</a></li>
                         <li><a data-toggle-dia1="panelDomingo1" href="#tickets-container">Metodo de Investigación 2 </a></li>
+                        <li><a data-toggle-dia1="panelDomingoD" href="#tickets-container">Evidencia</a></li>
                     
                       </ul> 
                   </li>
@@ -234,37 +242,39 @@
           </section>
 
 
-          <section id="tickets-container" data-magellan-target="tickets-container">
+       <section id="tickets-container" data-magellan-target="tickets-container">
 
             <br> </br>
+
             <h3 class="text-center">MÓLUDO 2 </h3>
-              
-        
-          
-            <ul class="tabs text-center" data-tabs id="Tickets-tabs">
+
+            <ul class="tabs text-center" data-tabs id="tickets-tabs">
               <li class="tabs-title is-active"><a href="#panelViernes1">Plan de Investigación</a></li>
               <li class="tabs-title "><a href="#panelSabado1">Guia de entrevista</a></li>
               <li class="tabs-title"><a href="#panelDomingo1">Método de investigación 2</a></li>
-              
-
+              <li class="tabs-title"><a href="#panelDomingoD">Evidencia</a></li>
             </ul>
-            <!-- Tabs content -->
-            <div class="tabs-content" data-tabs-content="Tickets-tabs">
+
+            <div class="tabs-content" data-tabs-content="tickets-tabs">
+
+             <!--PLAN DE INVESTIGACIÓN -->
+
               <div class="tabs-panel is-active" id="panelViernes1">
                 <div class="row">
                   <div class="small-18 medium-10 column">
                       <div class="orbit-container">
                         <div class="orbit-slide">
                           <img class="orbit-image" src="imagenes\Planinvestigacion.PNG">
-                          
-                        </div>
+                         </div>
                       </div>
                   </div>
-                  
                 </div>
               </div>
+
+               <!--GUIA DE ENTREVISTA -->
+
               <div class="tabs-panel" id="panelSabado1">
-                <div class="row">
+               <div class="row">
                   <div class="small-12 medium-6 column">
                       <div class="orbit-container">
                         <div class="orbit-slide">
@@ -272,36 +282,35 @@
                         </div>
                       </div>
                   </div>
-                   <div class="small-12 medium-6 column">
+                
+                  <div class="small-12 medium-6 column">
                       <div class="orbit-container">
                         <div class="orbit-slide">
                           <img class="orbit-image" src="imagenes\guia3.PNG">
                         </div>
                       </div>
                   </div>
-                   <div class="small-12 medium-6 column">
+
+                  <div class="small-12 medium-6 column">
                       <div class="orbit-container">
                         <div class="orbit-slide">
                           <img class="orbit-image" src="imagenes\guia3.PNG">
                         </div>
                       </div>
                   </div>
-                       
-                  
-                  
                 </div>
               </div>
-             <div class="tabs-panel" id="panelDomingo1">
 
-             <div class="row">
+              <!--METODO DE INVESTIGACIÓN 2 -->
 
-                <div class="small-12 medium-6 column">
-                      <div class="orbit-container">
-                        <div class="orbit-slide">
-                          <img class="orbit-image" src="imagenes\metodosinvestigacion.PNG">
-                          
+               <div class="tabs-panel" id="panelDomingo1">
+                  <div class="row">
+                    <div class="small-12 medium-6 column">
+                        <div class="orbit-container">
+                          <div class="orbit-slide">
+                            <img class="orbit-image" src="imagenes\metodosinvestigacion.PNG">
+                          </div>
                         </div>
-                      </div>
                   </div>
 
                   <div class="small-12 medium-6 column">
@@ -343,18 +352,16 @@
                     <div class="small-12 medium-6 column">
                       <div class="orbit-container2">
                         <div class="orbit-slide">
-                          <img class="orbit-image" src="imagenes\Metodo de Investigacion-Entrevista- Parte 2.PNG">
-                          
+                          <img class="orbit-image" src="imagenes\Metodo de Investigacion-Entrevista- Parte 2.PNG">  
                         </div>
                       </div>
+                   </div>
                   </div>
                 </div>
-                </div>
 
+                <!--EVIDENCIA -->
 
-<!--EVIDENCIA--><h3 class="text-center">EVIDENCIA</h3>
-                <br>
-              <div class="tabs-panel1" id="panellunes1">
+                <div class="tabs-panel" id="panelDomingoD">
                  <div class="row">
                     <div class="small-12 medium-6 column">
                       <div class="orbit-container">
@@ -362,16 +369,14 @@
                           <img class="orbit-image" src="imagenes\encuesta2.jpg"> 
                         </div>
                       </div>
-                  </div>
-
-                  <div class="small-12 medium-6 column">
+                    </div>
+                    <div class="small-12 medium-6 column">
                       <div class="orbit-container">
                         <div class="orbit-slide">
                           <img class="orbit-image" src="imagenes\encuesta13.jpg">
                         </div>
                       </div>
                   </div>
-
                   <div class="small-12 medium-6 column">
                       <div class="orbit-container">
                         <div class="orbit-slide">
@@ -410,21 +415,11 @@
                       <div class="orbit-container">
                         <div class="orbit-slide">
                           <img class="orbit-image" src="imagenes\preg3.PNG">
-                          
                         </div>
                       </div>
                   </div>
 
                   <div class="small-12 medium-6 column">
-                      <div class="orbit-container">
-                        <div class="orbit-slide">
-                          <img class="orbit-image" src="imagenes\preg4.PNG">
-                          
-                        </div>
-                      </div>
-                  </div>
-
-                   <div class="small-12 medium-6 column">
                       <div class="orbit-container">
                         <div class="orbit-slide">
                           <img class="orbit-image" src="imagenes\preg5.PNG">
@@ -433,28 +428,32 @@
                       </div>
                   </div>
 
+                   <div class="small-12 medium-6 column">
+                      <div class="orbit-container">
+                        <div class="orbit-slide">
+                          <img class="orbit-image" src="imagenes\preg4.PNG">
+                        </div>
+                      </div>
+                    </div>
 
-<p>En el trabajo de investigación se pudo notar que para la mayoria de personas la contaminación del aire es un tema de suma importancia. En promedio se considera la calidad de aire del lugar de trabajo o de estudio como 6/10 lo cual es una calificación muy mediana, para el lugar de residencia en los distintos barrio  en Bogotá se considera en promedio una calida de aire de 6,5. Los distintos entrevistados son concientes que para hacer un cambio se empieza de manera interna por esta razón algunos ayudan a disminuir la contaminación del aire de distintas maneras como son usar transporte alterno, plantar un arbo, reclicar y otros. La mayoria de personas no sabian que era el material particula que se encontraba en el aire, sin embargo, una vez que les fue explicado los peligros que conlleva coincidieron de que era necesario crear una solución que permita disminuir este material del aire. </p>
+                   <p>En el trabajo de investigación se pudo notar que para la mayoria de personas la contaminación del aire es un tema de suma importancia. En promedio se considera la calidad de aire del lugar de trabajo o de estudio como 6/10 lo cual es una calificación muy mediana, para el lugar de residencia en los distintos barrio  en Bogotá se considera en promedio una calida de aire de 6,5. Los distintos entrevistados son concientes que para hacer un cambio se empieza de manera interna por esta razón algunos ayudan a disminuir la contaminación del aire de distintas maneras como son usar transporte alterno, plantar un arbo, reclicar y otros. La mayoria de personas no sabian que era el material particula que se encontraba en el aire, sin embargo, una vez que les fue explicado los peligros que conlleva coincidieron de que era necesario crear una solución que permita disminuir este material del aire. </p>
 
 
-            <h3 class="text-center">LINKS de los Audios de las Entrevistas</h3>
-             <h6 class="text-left"><a href="https://co.ivoox.com/es/emprendimiento-modulo-2-experiencia-gabriel-arias-audios-mp3_rf_23711407_1.html" target="_blank" >Audio de la experiencia ciclista de Gabriel Arias</a> <h/6>
-          
+                 <h3 class="text-center">LINKS de los Audios de las Entrevistas</h3> 
+                 <h6 class="text-left"><a href="https://co.ivoox.com/es/emprendimiento-modulo-2-experiencia-gabriel-arias-audios-mp3_rf_23711407_1.html" target="_blank" >Audio de la experiencia ciclista de Gabriel Arias</a> <h6>
                  <h6 class="text-left"> <a href="https://docs.google.com/document/d/1YmJsKp77aoeGPah-3qFzmaPJc7g7YkLTjJnpCqzl6Xo/edit?usp=sharing" target="_blank" >Documento</a> </h6>
-          
-              <h6 class="text-left"><a href="https://co.ivoox.com/es/emprendimiento-modulo-2-entrevista-doris-rojas-audios-mp3_rf_23685499_1.html" target="_blank" >Entrevista Doris Rojas, estudiante de Ingenieria Ambiental</a> 
+                 <h6 class="text-left"><a href="https://co.ivoox.com/es/emprendimiento-modulo-2-entrevista-doris-rojas-audios-mp3_rf_23685499_1.html" target="_blank" >Entrevista Doris Rojas, estudiante de Ingenieria Ambiental</a> 
                  </h6>
-            
-              <h6 class="text-left"><a href="https://co.ivoox.com/es/emprendimiento-modulo-2-entrevista-daniel-garcia-audios-mp3_rf_23711014_1.html" target="_blank" >Entrevista Daniel Garcia, integrante del grupo </a> 
-            </h6>
-                 
-              <h6 class="text-left"><a href="https://docs.google.com/forms/d/1cBqD-jjrFFaKHsvwhIRQxTXeGmW_snHpyUKz1qR1OsA/edit?ts=5a7cb85e" target="_blank" >Encuesta </a></h6>
-              
+                 <h6 class="text-left"><a href="https://co.ivoox.com/es/emprendimiento-modulo-2-entrevista-daniel-garcia-audios-mp3_rf_23711014_1.html" target="_blank" >Entrevista Daniel Garcia, integrante del grupo </a> </h6>
+                 <h6 class="text-left"><a href="https://docs.google.com/forms/d/1cBqD-jjrFFaKHsvwhIRQxTXeGmW_snHpyUKz1qR1OsA/edit?ts=5a7cb85e" target="_blank" >Encuesta </a></h6>
+                </div>
+              </div>
+
             </div>
-<!--fin evidencia-->
-        </div>
-    </div>
-               
+      </section>
+ 
+               <!--MODULO 3-->
+
 
          <section id="modulo3" data-magellan-target="modulo3">
            <h3 class="text-center">Módulo 3</h3>
@@ -598,12 +597,6 @@
  </section>   
               
             
-              
-        
-
-          
-            
-          </section>
           
           <section id="suscribete-container" data-magellan-target="suscribete-container">
             <h3 class="text-center">Referencias</h3>
@@ -663,10 +656,8 @@
               Studioroosegaarde.net. (n.d.). Smog Free Project. [online] Available at: https://www.studioroosegaarde.net/project/smog-free-tower [Accessed 18 Feb. 2018].
             </p>
 
-
           </section>
           
-
 
           <section id="info-container" data-magellan-target="info-container">
             <h3 class="text-center">Integrantes Grupo 6</h3>
@@ -682,9 +673,7 @@
           
           <!-- Info -->
 
-        </div>
-      </div>
-    </div>
+     
     <!-- Menu offcanvas -->
 
 
