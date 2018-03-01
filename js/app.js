@@ -1,10 +1,12 @@
+/** MODULO 1**/
+
 $(document).foundation()
 
 $('[data-toggle-dia]').click(function () {
 
 $('#lineup-tabs').foundation('selectTab', $(this).data('toggleDia'))
 
-
+/** MODULO 2**/
 
 });
 
@@ -16,12 +18,23 @@ $('#tickets-tabs').foundation('selectTab', $(this).data('toggleDia1'))
 
 });
 
+/** MODULO 3**/
 
 $(document).foundation()
 
 $('[data-toggle-dia2]').click(function () {
 
 $('#modulo3-tabs').foundation('selectTab', $(this).data('toggleDia2'))
+
+});
+
+/** MODULO 4**/
+
+$(document).foundation()
+
+$('[data-toggle-dia3]').click(function () {
+
+$('#modulo4-tabs').foundation('selectTab', $(this).data('toggleDia3'))
 
 });
 
