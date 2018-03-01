@@ -107,6 +107,7 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 	border: 0;
 	text-transform: uppercase;
 	font-family: 'Bree Serif', serif;
+
 }
 
 
@@ -170,6 +171,49 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 }
 
 /**FIN MODULO 3**/
+
+
+/**MODULO 4 **/
+
+#modulo4 {
+	padding: 1em 0;
+}
+
+#modulo4,
+#modulo4 .tabs-panel,
+#modulo4 .tabs,
+#modulo4 .tabs .tabs-title,
+#modulo4 .tabs .tabs-title.is-active a{
+	
+
+	background: #C7E4EA;
+	color: black;
+	border: 0;
+	text-transform: uppercase;
+	font-family: 'Bree Serif', serif;
+}
+
+#modulo4 .tabs .tabs-title a{
+	font-size: 18px;
+	color: black ;
+
+}
+
+#modulo4  .tabs .tabs-title a:hover{
+	color: black;
+	background-color: grey;
+}
+
+#modulo4 .orbit-container{
+	margin-bottom: 1em;
+}
+
+#modulo4 .column:nth-child(odd) figcaption{
+	text-align: right;
+}
+
+
+/**FIN MODULO 4 **/
 
 .tabs-content{
 	border: 0;
@@ -259,3 +303,8 @@ float: none;
 #offCanvas .js-drilldown-back > a::before{
 	border-color: transparent white transparent transparent;
 }
+
+#parrafo {
+	text-align: justify;
+}
+
