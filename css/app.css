@@ -186,7 +186,7 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 #modulo4 .tabs .tabs-title.is-active a{
 	
 
-	background: #C7E4EA;
+	background: #EFFBFB ;
 	color: black;
 	border: 0;
 	text-transform: uppercase;
@@ -211,7 +211,6 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 #modulo4 .column:nth-child(odd) figcaption{
 	text-align: right;
 }
-
 
 /**FIN MODULO 4 **/
 
