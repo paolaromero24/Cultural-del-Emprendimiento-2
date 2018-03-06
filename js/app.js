@@ -26,10 +26,12 @@ $('[data-toggle-dia2]').click(function () {
 
 $('#modulo3-tabs').foundation('selectTab', $(this).data('toggleDia2'))
 
+
 });
 
-/** MODULO 4**/
 
+
+/** MODULO 4**/
 $(document).foundation()
 
 $('[data-toggle-dia3]').click(function () {
@@ -37,7 +39,6 @@ $('[data-toggle-dia3]').click(function () {
 $('#modulo4-tabs').foundation('selectTab', $(this).data('toggleDia3'))
 
 });
-
 
 
 const $offCanvas = $('#offCanvas')
