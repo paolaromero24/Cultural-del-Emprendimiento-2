@@ -40,6 +40,16 @@ $('#modulo4-tabs').foundation('selectTab', $(this).data('toggleDia3'))
 
 });
 
+/** MODULO 5 **/
+
+$(document).foundation()
+
+$('[data-toggle-dia4]').click(function () {
+
+$('#modulo5-tabs').foundation('selectTab', $(this).data('toggleDia4'))
+
+});
+
 
 const $offCanvas = $('#offCanvas')
 const $sticky = $('#sticky')
