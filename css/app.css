@@ -214,6 +214,50 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 
 /**FIN MODULO 4 **/
 
+
+
+/**MODULO 5 **/
+
+#modulo5 {
+	padding: 1em 0;
+}
+
+#modulo5,
+#modulo5 .tabs-panel,
+#modulo5 .tabs,
+#modulo5 .tabs .tabs-title,
+#modulo5 .tabs .tabs-title.is-active a{
+	
+
+	background: #EFFBFB ;
+	color: black;
+	border: 0;
+	text-transform: uppercase;
+	font-family: 'Bree Serif', serif;
+}
+
+#modulo5 .tabs .tabs-title a{
+	font-size: 18px;
+	color: black ;
+
+}
+
+#modulo5  .tabs .tabs-title a:hover{
+	color: black;
+	background-color: grey;
+}
+
+#modulo5 .orbit-container{
+	margin-bottom: 1em;
+}
+
+#modulo5 .column:nth-child(odd) figcaption{
+	text-align: right;
+}
+
+/**FIN MODULO 5 **/
+
+
 .tabs-content{
 	border: 0;
 }
