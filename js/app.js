@@ -51,6 +51,18 @@ $('#modulo5-tabs').foundation('selectTab', $(this).data('toggleDia4'))
 });
 
 
+/** MODULO 5 **/
+
+$(document).foundation()
+
+$('[data-toggle-dia5]').click(function () {
+
+$('#modulo6-tabs').foundation('selectTab', $(this).data('toggleDia5'))
+
+});
+
+
+
 const $offCanvas = $('#offCanvas')
 const $sticky = $('#sticky')
 
