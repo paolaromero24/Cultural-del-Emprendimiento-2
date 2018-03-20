@@ -258,6 +258,47 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 /**FIN MODULO 5 **/
 
 
+/**MODULO 6 **/
+
+#modulo6 {
+	padding: 1em 0;
+}
+
+#modulo6,
+#modulo6 .tabs-panel,
+#modulo6 .tabs,
+#modulo6 .tabs .tabs-title,
+#modulo6 .tabs .tabs-title.is-active a{
+	
+
+	background: #EFFBFB ;
+	color: black;
+	border: 0;
+	text-transform: uppercase;
+	font-family: 'Bree Serif', serif;
+}
+
+#modulo6 .tabs .tabs-title a{
+	font-size: 18px;
+	color: black ;
+
+}
+
+#modulo6  .tabs .tabs-title a:hover{
+	color: black;
+	background-color: grey;
+}
+
+#modulo6 .orbit-container{
+	margin-bottom: 1em;
+}
+
+#modulo6 .column:nth-child(odd) figcaption{
+	text-align: right;
+}
+
+/**FIN MODULO 6 **/
+
 .tabs-content{
 	border: 0;
 }
