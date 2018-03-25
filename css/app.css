@@ -105,17 +105,17 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 	background: #B8B8B8 ;
 	color: black;
 	border: 0;
-	text-transform: uppercase;
+	/** text-transform: uppercase;**/;
 	font-family: 'Bree Serif', serif;
 
 }
-
 
 #tickets-container .tabs .tabs-title a{
 	font-size: 18px;
 	color: black ;
 
 }
+
 
 #tickets-container .tabs .tabs-title a:hover{
 	color: black;
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 }
 
 #tickets-container .column:nth-child(odd) figcaption{
-	text-align: right;
+	text-align: justify-all;
 }
 
 /**MODULO3**/
@@ -276,6 +276,7 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 	border: 0;
 	text-transform: uppercase;
 	font-family: 'Bree Serif', serif;
+	text-align: center;
 }
 
 #modulo6 .tabs .tabs-title a{
@@ -294,7 +295,7 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 }
 
 #modulo6 .column:nth-child(odd) figcaption{
-	text-align: right;
+	text-align: center;
 }
 
 /**FIN MODULO 6 **/
@@ -349,8 +350,8 @@ float: none;
 #suscribete-container{
 	background-color: #606060;
 	color: white;
-	padding: 1 3;
-    margin: 20px 30px;
+	padding: 25px;
+    text-align: justify all;
 }
 
 #suscribete-container h4 small{
